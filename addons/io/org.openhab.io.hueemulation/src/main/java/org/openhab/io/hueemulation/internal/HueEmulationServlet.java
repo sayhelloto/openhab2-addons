@@ -91,7 +91,7 @@ public class HueEmulationServlet extends HttpServlet {
             ConfigConstants.getUserDataFolder() + File.separator + "hueemulation" + File.separator + "udn");
     private static final File ITEM_FILE = new File(
             ConfigConstants.getUserDataFolder() + File.separator + "hueemulation" + File.separator + "items");
-    private static final String[] SUPPORTED_TAGS = new String[] { "Switchable", "Lighting" };
+    private static final String[] SUPPORTED_TAGS = new String[] { "Switchable", "Lightning" };
     private Gson gson = new Gson();
     private HttpService httpService;
     private ItemRegistry itemRegistry;
